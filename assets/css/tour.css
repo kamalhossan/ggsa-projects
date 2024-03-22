@@ -1,0 +1,109 @@
+#tourStart .limit-btn {
+    text-align: center;
+    width: 100%;
+    color: #FAA332;
+    font-weight: 600;
+}
+#tourStartLabel {
+    font-weight: 700;
+    text-align: center;
+    width: 100%;
+    padding-top: 20px;
+}
+#tourStart .modal-custom {
+    max-width: 440px !important;
+    border-radius: 20px;
+}
+#tourStart .modal-body {
+    text-align: center;
+    padding: 0;
+}
+#tourStart .modal-header {
+    border-bottom: 0;   
+}
+#tourStart img.limit-alert {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 55px;
+}
+#tourStart .modal-footer {
+    justify-content: space-between;
+}
+#tourStart .modal-footer button {
+    width: 100%;
+    max-width: 47%;
+}
+#skip-tour{
+    background-color: transparent;
+    border: 1px solid #FAA332;
+    border-radius: 4px;
+    color: #FAA332;
+}
+#start-tour {
+    background-color: #FAA332;
+    border: 1px solid #FAA332;
+    border-radius: 4px;
+    color: #fff;
+    padding: 6px 8px;
+}
+  
+/* Tour css*/
+
+#tg-dialog-title {
+    display: none;
+}
+
+.tg-dialog-header {
+    padding: 0 !important;
+}
+
+#tg-dialog-close-btn {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+}
+#tg-dialog-body {
+    text-align: center;
+}
+button#tg-dialog-prev-btn {
+    width: 100%;
+    color: #FAA332;
+    border-radius: 5px;
+    border: 1px solid #FAA332;
+}
+
+button#tg-dialog-next-btn {
+    width: 100%;
+    background: #FAA332;
+    color: #fff;
+    border-radius: 5px;
+    border: 0;
+}
+.tg-dialog {
+    padding: 25px;
+}
+div#tg-dialog-body {
+	padding: 0px;
+}
+.tg-dialog-footer {
+    padding: 0 !important;
+	padding-top: 5px !important;
+}
+div#tg-dialog-body {
+    border-bottom: 1px;
+    border-style: solid;
+    border-color: #f2f2f2;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.tour-backdrop {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    z-index: 901;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
